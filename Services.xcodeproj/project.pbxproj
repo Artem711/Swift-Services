@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		AC0ACE5225DB0EC1009A76B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC0ACE5125DB0EC1009A76B8 /* GoogleService-Info.plist */; };
 		AC28B04425DB0C9F00DA9104 /* ServicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28B04325DB0C9F00DA9104 /* ServicesApp.swift */; };
-		AC28B04625DB0C9F00DA9104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28B04525DB0C9F00DA9104 /* ContentView.swift */; };
 		AC28B04825DB0C9F00DA9104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC28B04725DB0C9F00DA9104 /* Assets.xcassets */; };
 		AC28B04B25DB0C9F00DA9104 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC28B04A25DB0C9F00DA9104 /* Preview Assets.xcassets */; };
-		AC28B05C25DB0CE400DA9104 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28B05B25DB0CE400DA9104 /* Book.swift */; };
-		AC28B05F25DB0D0E00DA9104 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC28B05E25DB0D0E00DA9104 /* BooksViewModel.swift */; };
-		AC75DEC125DB122C00023561 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75DEC025DB122C00023561 /* OnboardingView.swift */; };
+		AC75DEC125DB122C00023561 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75DEC025DB122C00023561 /* LandingView.swift */; };
 		AC75DEC425DB12E100023561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75DEC325DB12E100023561 /* HomeView.swift */; };
 		ACB3F98425DB1A58005D63C4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F98325DB1A58005D63C4 /* SearchBar.swift */; };
 		ACB3F98725DB1D76005D63C4 /* ViewControllerResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3F98625DB1D76005D63C4 /* ViewControllerResolver.swift */; };
+		ACB7161725DEE1FA005FC3FD /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7161625DEE1FA005FC3FD /* PrimaryButtonStyle.swift */; };
+		ACB7161D25DEE38F005FC3FD /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7161C25DEE38F005FC3FD /* Color+Extension.swift */; };
+		ACE8B39325DEF49A001B8BF3 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8B39225DEF49A001B8BF3 /* DropdownView.swift */; };
 		CC54EE02BC1628A66A66869C /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19599C1755673BB3FE0B091 /* Pods_Services.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,16 +25,16 @@
 		AC0ACE5125DB0EC1009A76B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC28B04025DB0C9F00DA9104 /* Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Services.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28B04325DB0C9F00DA9104 /* ServicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesApp.swift; sourceTree = "<group>"; };
-		AC28B04525DB0C9F00DA9104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC28B04725DB0C9F00DA9104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC28B04A25DB0C9F00DA9104 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC28B04C25DB0C9F00DA9104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC28B05B25DB0CE400DA9104 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
-		AC28B05E25DB0D0E00DA9104 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
-		AC75DEC025DB122C00023561 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AC75DEC025DB122C00023561 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		AC75DEC325DB12E100023561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACB3F98325DB1A58005D63C4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		ACB3F98625DB1D76005D63C4 /* ViewControllerResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerResolver.swift; sourceTree = "<group>"; };
+		ACB7161625DEE1FA005FC3FD /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		ACB7161C25DEE38F005FC3FD /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		ACE8B39225DEF49A001B8BF3 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
 		B19599C1755673BB3FE0B091 /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4AD3998A3B41848F2B5051 /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
 		E8D7BC84A27A5CE30E08547E /* Pods-Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.release.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +69,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AC1E25DE25DEDBEC0077C64C /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3F98325DB1A58005D63C4 /* SearchBar.swift */,
+				ACB3F98625DB1D76005D63C4 /* ViewControllerResolver.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		AC28B03725DB0C9E00DA9104 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +103,7 @@
 				AC28B05425DB0CAE00DA9104 /* ViewModels */,
 				AC28B05525DB0CB200DA9104 /* Models */,
 				AC28B05325DB0CA900DA9104 /* Views */,
-				AC75DEC625DB12EC00023561 /* Screens */,
+				ACB7161A25DEE36B005FC3FD /* Helpers */,
 				AC28B04725DB0C9F00DA9104 /* Assets.xcassets */,
 				AC28B04C25DB0C9F00DA9104 /* Info.plist */,
 				AC0ACE5125DB0EC1009A76B8 /* GoogleService-Info.plist */,
@@ -114,8 +123,8 @@
 		AC28B05325DB0CA900DA9104 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACB3F98325DB1A58005D63C4 /* SearchBar.swift */,
-				ACB3F98625DB1D76005D63C4 /* ViewControllerResolver.swift */,
+				AC75DEC625DB12EC00023561 /* Screens */,
+				ACB7162025DEE4C4005FC3FD /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,7 +132,6 @@
 		AC28B05425DB0CAE00DA9104 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				AC28B05E25DB0D0E00DA9104 /* BooksViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -131,7 +139,6 @@
 		AC28B05525DB0CB200DA9104 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AC28B05B25DB0CE400DA9104 /* Book.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,11 +154,36 @@
 		AC75DEC625DB12EC00023561 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				AC28B04525DB0C9F00DA9104 /* ContentView.swift */,
-				AC75DEC025DB122C00023561 /* OnboardingView.swift */,
 				AC75DEC325DB12E100023561 /* HomeView.swift */,
+				AC75DEC025DB122C00023561 /* LandingView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		ACB7161525DEE1EC005FC3FD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7161625DEE1FA005FC3FD /* PrimaryButtonStyle.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ACB7161A25DEE36B005FC3FD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7161C25DEE38F005FC3FD /* Color+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ACB7162025DEE4C4005FC3FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E25DE25DEDBEC0077C64C /* SearchBar */,
+				ACB7161525DEE1EC005FC3FD /* Shared */,
+				ACE8B39225DEF49A001B8BF3 /* DropdownView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,14 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB7161725DEE1FA005FC3FD /* PrimaryButtonStyle.swift in Sources */,
+				ACB7161D25DEE38F005FC3FD /* Color+Extension.swift in Sources */,
 				ACB3F98725DB1D76005D63C4 /* ViewControllerResolver.swift in Sources */,
 				ACB3F98425DB1A58005D63C4 /* SearchBar.swift in Sources */,
-				AC28B05C25DB0CE400DA9104 /* Book.swift in Sources */,
-				AC28B04625DB0C9F00DA9104 /* ContentView.swift in Sources */,
-				AC28B05F25DB0D0E00DA9104 /* BooksViewModel.swift in Sources */,
 				AC75DEC425DB12E100023561 /* HomeView.swift in Sources */,
+				ACE8B39325DEF49A001B8BF3 /* DropdownView.swift in Sources */,
 				AC28B04425DB0C9F00DA9104 /* ServicesApp.swift in Sources */,
-				AC75DEC125DB122C00023561 /* OnboardingView.swift in Sources */,
+				AC75DEC125DB122C00023561 /* LandingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,9 +16,14 @@ struct ServicesApp: App {
     var body: some Scene {
         WindowGroup {
             if newUser {
-                OnboardingView()
+                LandingView()
             } else {
-                ContentView()
+                TabView {
+                    HomeView()
+                        .tabItem {
+                            Label("Home", systemImage: "house")
+                        }
+                }
             }
         }
     }

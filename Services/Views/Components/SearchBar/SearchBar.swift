@@ -8,7 +8,6 @@
 import SwiftUI
 
 class SearchBar: NSObject, ObservableObject {
-    
     @Published var text: String = ""
     let searchController: UISearchController = UISearchController(searchResultsController: nil)
     

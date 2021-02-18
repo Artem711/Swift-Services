@@ -30,54 +30,18 @@ struct HomeView: View {
         ]
     
     @ObservedObject var searchBar: SearchBar = SearchBar()
-    
+    var items: [Planet] { planets.filter { searchBar.text.isEmpty || $0.id.localizedStandardContains(searchBar.text) }; }
     var body: some View {
-        NavigationView {
-            List(
-                planets.filter {
-                    searchBar.text.isEmpty ||
-                    $0.id.localizedStandardContains(searchBar.text)
-                }
-            ) { eachPlanet in
-                HStack {
-                    VStack(alignment: .leading, spacing: 0) {
-                        Text(eachPlanet.id)
-                            .font(.title3)
-                            .fontWeight(.bold)
-                        HStack {
-                            Text("Radius")
-                                .modifier(LabelStyle())
-                            Text(eachPlanet.size)
-                                .font(.body)
-                                .foregroundColor(Color(.tertiaryLabel))
-                            Text("Distance")
-                                .modifier(LabelStyle())
-                            Text(eachPlanet.distance)
-                                .font(.body)
-                                .foregroundColor(Color(.tertiaryLabel))
-                        }
-                    }
-                }
-            }
+            List(items) { eachPlanet in
+                Text(eachPlanet.id) //: TEXT
+                    .font(.title3)
+                    .fontWeight(.bold)
+            } //: LIST
                 .navigationBarTitle("Planets")
                 .add(self.searchBar)
         }
-            .navigationViewStyle(StackNavigationViewStyle())
-    }
 }
 
-struct LabelStyle: ViewModifier {
-    
-    func body(content: Content) -> some View {
-        content
-            .font(.caption)
-            .foregroundColor(Color(.systemBackground))
-            .padding(.horizontal, 5.0)
-            .padding(.vertical, 2.0)
-            .background(Color(.quaternaryLabel))
-            .clipShape(Capsule())
-    }
-}
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
